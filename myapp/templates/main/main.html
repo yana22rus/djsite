@@ -1,0 +1,10 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+
+{% for m in side_bar %}
+<p><a href="#">{{m.title}}</a></p>
+{% endfor %}
+
+
+{% endblock %}
